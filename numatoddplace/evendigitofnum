@@ -1,0 +1,9 @@
+#write a shell script to display the digits which are at odd position in a 5 digit number
+
+echo "enter a 5 digit number: "
+read num
+
+d2=$(echo $num | cut -c2)
+d4=$(echo $num | cut -c4)
+
+echo "digits at odd place are--> $d2 and $d4"
