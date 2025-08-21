@@ -1,0 +1,12 @@
+  
+#wap to find the average of number given in command line
+
+sum=0
+count=$#
+echo "$count"
+for i in "$@"; do
+sum=$((sum+i))
+echo "sum : $sum"
+done
+avg=$((sum/count))
+echo "average: $avg"
