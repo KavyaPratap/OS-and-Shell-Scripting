@@ -1,4 +1,4 @@
-  
+
 #wap to find the average of number given in command line
 
 sum=0
@@ -10,3 +10,4 @@ echo "sum : $sum"
 done
 avg=$((sum/count))
 echo "average: $avg"
+#taking output run as ./loop.sh 1 2 3 4 .........1 2 3 4 are numbers and loop.sh is filename
